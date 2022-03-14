@@ -1,4 +1,4 @@
-/* Common */
+/*#region Common */
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +15,10 @@
   max-width: 100%;
 }
 
-/* Utility */
+/*#endregion Common */
+
+
+/* #region Utility */
 .d-flex {
   display: flex;
 }
@@ -24,7 +27,7 @@
   align-items: center;
 }
 
-/* Text */
+/* #region Text */
 .text-center {
   text-align: center;
 }
@@ -33,12 +36,10 @@
   text-align: right;
 }
 
+/* #endregion Text */
 
-.display-1 {
-  font-size: 4rem;
-}
 
-/* Utility spaces */
+/*  #region spaces */
 .p-0{
     padding: 0;
 }
@@ -63,7 +64,10 @@
     margin-bottom: 1rem;
 }
 
-/* Grid structure */
+/*  #endregion spaces */
+
+
+/* #region Grid structure */
 
 .container-flow{
     width: 100%;
@@ -200,6 +204,12 @@
   margin-left: calc((100% / 12) * 11);
 }
 
+/* #endregion Grid structure */
+
+
+/* #endregion Utility */
+
+/* #region Media Query */
 @media screen and (min-width: 576px) {
   .col-sm-1 {
     flex-basis: calc((100% / 12) * 1);
@@ -523,3 +533,5 @@
   }
 
 } 
+
+/* #endregion Media Query */
