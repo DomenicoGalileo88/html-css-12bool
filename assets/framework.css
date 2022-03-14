@@ -31,6 +31,24 @@
   align-items: center;
 }
 
+.pos-relative{
+    position: relative;
+}
+
+.pos-absolute{
+    position: absolute;
+}
+
+.clearfix{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.float-left{
+    float: left;
+}
+
 /* #region Text */
 .text-center {
   text-align: center;
@@ -48,8 +66,24 @@
     padding: 0;
 }
 
+.p-0-5{
+    padding: 0.5rem;
+}
+
 .p-1 {
   padding: 1rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.p-4 {
+  padding: 4rem;
 }
 
 .p-5 {
