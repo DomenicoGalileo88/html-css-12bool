@@ -1,0 +1,30 @@
+body{
+    color: white;
+}
+
+[class^="col"] {
+  background-color: cornflowerblue;
+  border: 1px solid white;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.white{
+    background-color: white;
+}
+
+.green{
+    background-color: chartreuse;
+    border: 1px solid cornflowerblue;
+    font-size: 10px;
+}
+
+.content{
+   height: 70px;
+}
+
+.title{
+    color: black;
+}
