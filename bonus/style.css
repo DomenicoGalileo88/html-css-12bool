@@ -1,0 +1,40 @@
+/* common */
+a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+p,
+h2 {
+  color: cornflowerblue;
+}
+
+ul > li {
+  list-style: none;
+  cursor: pointer;
+}
+
+header {
+  padding: 1rem 0;
+  background-color: yellow;
+}
+
+.btn{
+    background-color: cornflowerblue;
+    color: yellow;
+    padding: 5px 15px;
+    border-radius: 1rem;
+}
+
+nav > a {
+  margin-right: 2rem;
+}
+
+.banner {
+  color: cornflowerblue;
+}
+
+footer {
+  background-color: cornflowerblue;
+  color: yellow;
+}
